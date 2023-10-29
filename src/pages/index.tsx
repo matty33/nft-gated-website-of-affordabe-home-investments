@@ -30,12 +30,12 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Header />
-      <h2 className={styles.heading}>NFT Gated Content </h2>
-      <h1 className={styles.h1}>Auth</h1>
+      <h2 className={styles.heading}>ELV8 Affordable Homes Gated Content </h2>
+      <h1 className={styles.h1}>ELV8 Affordable Homes</h1>
 
       <p className={styles.explain}>
-        Serve exclusive content to users who own an NFT from <br />
-        your collection, using{" "}
+        Display homes available with compliance data for users holding the Unlock token <br />
+ using{" "}
         <a
           className={styles.link}
           href="https://portal.thirdweb.com/auth"
@@ -48,8 +48,8 @@ export default function Home() {
       </p>
 
       <div className={styles.card}>
-        <h3>Exclusive unlocked</h3>
-        <p>Your NFT unlocked access to this product.</p>
+        <h3>Exclusive investments unlocked</h3>
+        <p>Your ELV8 compliance token unlocked access to this product.</p>
 
         {contractMetadata && (
           <div className={styles.nft}>
