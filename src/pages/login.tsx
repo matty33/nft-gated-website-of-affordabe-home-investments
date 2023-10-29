@@ -32,25 +32,24 @@ export default function Login() {
   return (
     <div className={styles.container}>
       <Header />
-      <h2 className={styles.heading}>NFT Gated Content </h2>
-      <h1 className={styles.h1}>Auth</h1>
+      <h2 className={styles.heading}>ETH MIAMI 2023 </h2>
+      <h1 className={styles.h1}>ELV8 Affordable Homes</h1>
 
       <p className={styles.explain}>
-        Serve exclusive content to users who own an NFT from <br />
-        your collection, using{" "}
+        Exclusive investment opportunities for creating affordable housing {" "}
         <a
           className={styles.link}
-          href="https://portal.thirdweb.com/auth"
+          href="https://ethmiami.net"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Auth
+          ELV8 @ Eth Miami
         </a>
         .{" "}
       </p>
 
       <div className={styles.card}>
-        <h3>Holder exclusive</h3>
+        <h3>ELV8 Compliance NFT Holder </h3>
         <p>To unlock this product, you need:</p>
 
         {contractMetadata && (
